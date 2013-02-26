@@ -1,0 +1,25 @@
+
+src/model/Card.java:10	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Card.java:10	This final field could be made static
+src/model/Card.java:11	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Card.java:11	This final field could be made static
+src/model/Card.java:12	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Card.java:12	This final field could be made static
+src/model/Card.java:13	Found non-transient, non-static member. Please mark as transient or provide accessors.
+src/model/Card.java:13	This final field could be made static
+src/model/Card.java:17	Local variable 'random' could be declared final
+src/model/Card.java:18	Avoid variables with short names like i
+src/model/Card.java:19	Avoid variables with short names like j
+src/model/Card.java:51	Parameter 'left' is not assigned and could be declared final
+src/model/Card.java:61	Parameter 'right' is not assigned and could be declared final
+src/model/Card.java:71	Parameter 'result' is not assigned and could be declared final
+src/model/Constants.java:6	Avoid unnecessary constructors - the compiler will generate these for you
+src/model/Constants.java:6	Document empty constructor
+src/model/User.java:12	A method should have only one exit point, and that should be the last statement in the method
+src/model/User.java:25	Parameter 'name' is not assigned and could be declared final
+src/model/User.java:35	Parameter 'password' is not assigned and could be declared final
+src/validator/LoginValidator.java:13	Parameter 'component' is not assigned and could be declared final
+src/validator/LoginValidator.java:13	Parameter 'context' is not assigned and could be declared final
+src/validator/LoginValidator.java:13	Parameter 'value' is not assigned and could be declared final
+src/validator/LoginValidator.java:15	Local variable 'user' could be declared final
+src/validator/LoginValidator.java:18	Local variable 'message' could be declared final

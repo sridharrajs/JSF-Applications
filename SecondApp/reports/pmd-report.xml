@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pmd version="4.2.5" timestamp="2013-02-19T12:59:54.827">
+<file name="src/model/Card.java">
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="10" endline="10" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#FinalFieldCouldBeStatic" priority="3">
+This final field could be made static
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="11" endline="11" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#FinalFieldCouldBeStatic" priority="3">
+This final field could be made static
+</violation>
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#FinalFieldCouldBeStatic" priority="3">
+This final field could be made static
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="BeanMembersShouldSerialize" ruleset="JavaBean Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/javabeans.html#BeanMembersShouldSerialize" priority="3">
+Found non-transient, non-static member. Please mark as transient or provide accessors.
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="FinalFieldCouldBeStatic" ruleset="Design Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#FinalFieldCouldBeStatic" priority="3">
+This final field could be made static
+</violation>
+<violation beginline="17" endline="17" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'random' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like i
+</violation>
+<violation beginline="19" endline="19" begincolumn="0" endcolumn="0" rule="ShortVariable" ruleset="Naming Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/naming.html#ShortVariable" priority="3">
+Avoid variables with short names like j
+</violation>
+<violation beginline="51" endline="51" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'left' is not assigned and could be declared final
+</violation>
+<violation beginline="61" endline="61" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'right' is not assigned and could be declared final
+</violation>
+<violation beginline="71" endline="71" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="model" class="Card" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'result' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/model/Constants.java">
+<violation beginline="6" endline="9" begincolumn="0" endcolumn="0" rule="UnnecessaryConstructor" ruleset="Controversial Rules" package="model" class="Constants" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#UnnecessaryConstructor" priority="3">
+Avoid unnecessary constructors - the compiler will generate these for you
+</violation>
+<violation beginline="6" endline="9" begincolumn="0" endcolumn="0" rule="UncommentedEmptyConstructor" ruleset="Design Rules" package="model" class="Constants" externalInfoUrl="http://pmd.sourceforge.net/rules/design.html#UncommentedEmptyConstructor" priority="3">
+Document empty constructor
+</violation>
+</file>
+<file name="src/model/User.java">
+<violation beginline="12" endline="12" begincolumn="0" endcolumn="0" rule="OnlyOneReturn" ruleset="Controversial Rules" package="model" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/controversial.html#OnlyOneReturn" priority="3">
+A method should have only one exit point, and that should be the last statement in the method
+</violation>
+<violation beginline="25" endline="25" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="model" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'name' is not assigned and could be declared final
+</violation>
+<violation beginline="35" endline="35" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="model" class="User" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'password' is not assigned and could be declared final
+</violation>
+</file>
+<file name="src/validator/LoginValidator.java">
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="validator" class="LoginValidator" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'component' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="validator" class="LoginValidator" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'context' is not assigned and could be declared final
+</violation>
+<violation beginline="13" endline="13" begincolumn="0" endcolumn="0" rule="MethodArgumentCouldBeFinal" ruleset="Optimization Rules" package="validator" class="LoginValidator" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#MethodArgumentCouldBeFinal" priority="3">
+Parameter 'value' is not assigned and could be declared final
+</violation>
+<violation beginline="15" endline="15" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="validator" class="LoginValidator" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'user' could be declared final
+</violation>
+<violation beginline="18" endline="18" begincolumn="0" endcolumn="0" rule="LocalVariableCouldBeFinal" ruleset="Optimization Rules" package="validator" class="LoginValidator" externalInfoUrl="http://pmd.sourceforge.net/rules/optimizations.html#LocalVariableCouldBeFinal" priority="3">
+Local variable 'message' could be declared final
+</violation>
+</file>
+</pmd>
